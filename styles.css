@@ -10,6 +10,7 @@ body {
 }
 .whole-title-container {
   background-color: rgba(242, 182, 92, 0.7);
+  border: 8px solid #080602;
 }
 .title-container {
   display: flex;
@@ -17,7 +18,7 @@ body {
   align-items: center;
   height: 100px;
   font-family: futura;
-  font-size: larger;
+  font-size: 2em;
   padding: 10px;
   margin: 10px;
 }
@@ -37,14 +38,14 @@ body {
   align-items: center;
   margin: 40 auto;
   font-family: futura;
-  font-size: small;
+  font-size: 0.75em;
   font-weight: lighter;
   height: 100px;
+  text-shadow: 2px 2px 4px #ecdfdf;
 }
 
 .sub-title {
   margin: 0;
-  font-size: small;
   font-weight: lighter;
   fill: aquamarine;
 }
@@ -53,9 +54,10 @@ body {
   display: flex;
   justify-content: center;
   border: 8px solid #693e03;
-  width: fit-content;
+  width: 50%;
   align-items: center;
   margin: 0 auto;
+  margin-top: 50px;
   background-color: rgba(105, 66, 8, 0.8);
   /* add background color */
 }
